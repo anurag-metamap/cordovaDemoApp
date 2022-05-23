@@ -1,0 +1,10 @@
+{
+  "metamap-cordova-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "metamap-cordova-plugin"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

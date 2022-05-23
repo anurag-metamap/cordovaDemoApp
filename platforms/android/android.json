@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"MetaMapGlobalIDSDK\"><param name=\"android-package\" value=\"com.cordova.plugin.metaMapglobalidsdk.MetaMapGlobalIDSDK\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "metamap-cordova-plugin": {
+      "PACKAGE_NAME": "com.metamap.cordovademoapp"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "metamap-cordova-plugin.MetaMapGlobalIDSDK",
+      "file": "plugins/metamap-cordova-plugin/www/MetaMapGlobalIDSDK.js",
+      "pluginId": "metamap-cordova-plugin",
+      "clobbers": [
+        "cordova.plugins.MetaMapGlobalIDSDK"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "metamap-cordova-plugin": "0.0.4"
+  }
+}
