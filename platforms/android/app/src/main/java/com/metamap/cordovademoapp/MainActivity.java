@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.metamap.cordovademoapp;
+package com.metamap.cordovaDemoApp;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
