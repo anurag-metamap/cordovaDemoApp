@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F7C95A39DA931556FE7A2A57D183F432 /* MetaMap-Global-ID-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5D5B9E48C43AE7820F60E93CFB6EAFA7 /* Build configuration list for PBXAggregateTarget "MetaMap-Global-ID-SDK" */;
+			buildPhases = (
+				3C79CEC68E011EA429342F75114006E6 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "MetaMap-Global-ID-SDK";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0BB514DAFC65BB51076C198AD9B2CB6E /* Pods-cordovaDemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F71798789DC7D5E461FB8D71B1CA4B4F /* Pods-cordovaDemoApp-dummy.m */; };
+		A6DF7D1E026508F75CDEF4ADE6FF0A26 /* Pods-cordovaDemoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C044892E87AEB5F9B679533122CA0A3 /* Pods-cordovaDemoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3083CB119CC2378468E15D590628ACA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8294669DF7C06939F973674ED1548F76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7C95A39DA931556FE7A2A57D183F432;
+			remoteInfo = "MetaMap-Global-ID-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07BED6134675904A29D52D4F4FE91FEA /* Pods-cordovaDemoApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cordovaDemoApp-Info.plist"; sourceTree = "<group>"; };
+		2C044892E87AEB5F9B679533122CA0A3 /* Pods-cordovaDemoApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cordovaDemoApp-umbrella.h"; sourceTree = "<group>"; };
+		358BF08D06C842E47CC411AB21A13874 /* Pods-cordovaDemoApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cordovaDemoApp.modulemap"; sourceTree = "<group>"; };
+		3FC56BAF1CCABD76D793E0FF242879A5 /* Pods-cordovaDemoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cordovaDemoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4589200F82528CF63ECE198EC2D243A4 /* MetaMap-Global-ID-SDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MetaMap-Global-ID-SDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		4931B684D1614FAD10CA666F1F2E3E80 /* MetaMap-Global-ID-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MetaMap-Global-ID-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CF176A510DD5C451C53E1BEE4B39A0C /* Pods-cordovaDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cordovaDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		8FCDDD265AF09C229EC3E6C40192DF3D /* Pods-cordovaDemoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cordovaDemoApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		917EE7E41A816F91CDB5147189F3AA0E /* Pods-cordovaDemoApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-cordovaDemoApp"; path = Pods_cordovaDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8731276EA9872459192E07691559E36 /* Pods-cordovaDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cordovaDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CEACBB7DEE04024F1C168E87B69A7091 /* MetaMapSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MetaMapSDK.xcframework; sourceTree = "<group>"; };
+		D87EE9C2B67DF298D386D6BA9E5AB4A1 /* Pods-cordovaDemoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cordovaDemoApp-frameworks.sh"; sourceTree = "<group>"; };
+		ED959D88F8006276F38859E5A51788B6 /* MetaMap-Global-ID-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MetaMap-Global-ID-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		F71798789DC7D5E461FB8D71B1CA4B4F /* Pods-cordovaDemoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cordovaDemoApp-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED976073DDE6FFE440CC6A26345225F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3083CB119CC2378468E15D590628ACA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A319D5AB2BDC5308670C978FB3E2770 /* Pods-cordovaDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				358BF08D06C842E47CC411AB21A13874 /* Pods-cordovaDemoApp.modulemap */,
+				3FC56BAF1CCABD76D793E0FF242879A5 /* Pods-cordovaDemoApp-acknowledgements.markdown */,
+				8FCDDD265AF09C229EC3E6C40192DF3D /* Pods-cordovaDemoApp-acknowledgements.plist */,
+				F71798789DC7D5E461FB8D71B1CA4B4F /* Pods-cordovaDemoApp-dummy.m */,
+				D87EE9C2B67DF298D386D6BA9E5AB4A1 /* Pods-cordovaDemoApp-frameworks.sh */,
+				07BED6134675904A29D52D4F4FE91FEA /* Pods-cordovaDemoApp-Info.plist */,
+				2C044892E87AEB5F9B679533122CA0A3 /* Pods-cordovaDemoApp-umbrella.h */,
+				A8731276EA9872459192E07691559E36 /* Pods-cordovaDemoApp.debug.xcconfig */,
+				7CF176A510DD5C451C53E1BEE4B39A0C /* Pods-cordovaDemoApp.release.xcconfig */,
+			);
+			name = "Pods-cordovaDemoApp";
+			path = "Target Support Files/Pods-cordovaDemoApp";
+			sourceTree = "<group>";
+		};
+		2308E11FC189DDF7F1FB9E5944D4019E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				917EE7E41A816F91CDB5147189F3AA0E /* Pods-cordovaDemoApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D8007D143A938501E30B88E4101155C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4589200F82528CF63ECE198EC2D243A4 /* MetaMap-Global-ID-SDK-xcframeworks.sh */,
+				ED959D88F8006276F38859E5A51788B6 /* MetaMap-Global-ID-SDK.debug.xcconfig */,
+				4931B684D1614FAD10CA666F1F2E3E80 /* MetaMap-Global-ID-SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MetaMap-Global-ID-SDK";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6BC0FC289D8D0E0D4A7B292C33D43F70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEACBB7DEE04024F1C168E87B69A7091 /* MetaMapSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90D1BF0C4BAF868A954C94E359BB2DEF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A319D5AB2BDC5308670C978FB3E2770 /* Pods-cordovaDemoApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AF4B54D2EC668EE0ED83C9A58ACF54F6 /* MetaMap-Global-ID-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				6BC0FC289D8D0E0D4A7B292C33D43F70 /* Frameworks */,
+				4D8007D143A938501E30B88E4101155C /* Support Files */,
+			);
+			name = "MetaMap-Global-ID-SDK";
+			path = "MetaMap-Global-ID-SDK";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F0D32924610D42DB23116D9C479E1921 /* Pods */,
+				2308E11FC189DDF7F1FB9E5944D4019E /* Products */,
+				90D1BF0C4BAF868A954C94E359BB2DEF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0D32924610D42DB23116D9C479E1921 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF4B54D2EC668EE0ED83C9A58ACF54F6 /* MetaMap-Global-ID-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		286155D1F658A2E25FB71ADEC88A2F8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DF7D1E026508F75CDEF4ADE6FF0A26 /* Pods-cordovaDemoApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C7B2A621F5DA02F35C72357BE1DD7AC9 /* Pods-cordovaDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48896C281E46ED8B6C2E5E8E2F407C29 /* Build configuration list for PBXNativeTarget "Pods-cordovaDemoApp" */;
+			buildPhases = (
+				286155D1F658A2E25FB71ADEC88A2F8D /* Headers */,
+				196ADC72E2DAC468217A0D528D2CC876 /* Sources */,
+				ED976073DDE6FFE440CC6A26345225F7 /* Frameworks */,
+				9C1010A59288F9D608C0D05A70588398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A41B7631124E0E838C35C406BA71F66 /* PBXTargetDependency */,
+			);
+			name = "Pods-cordovaDemoApp";
+			productName = Pods_cordovaDemoApp;
+			productReference = 917EE7E41A816F91CDB5147189F3AA0E /* Pods-cordovaDemoApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2308E11FC189DDF7F1FB9E5944D4019E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7C95A39DA931556FE7A2A57D183F432 /* MetaMap-Global-ID-SDK */,
+				C7B2A621F5DA02F35C72357BE1DD7AC9 /* Pods-cordovaDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C1010A59288F9D608C0D05A70588398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C79CEC68E011EA429342F75114006E6 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/MetaMap-Global-ID-SDK/MetaMap-Global-ID-SDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/MetaMap-Global-ID-SDK/MetaMap-Global-ID-SDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/MetaMap-Global-ID-SDK/MetaMap-Global-ID-SDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		196ADC72E2DAC468217A0D528D2CC876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB514DAFC65BB51076C198AD9B2CB6E /* Pods-cordovaDemoApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A41B7631124E0E838C35C406BA71F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MetaMap-Global-ID-SDK";
+			target = F7C95A39DA931556FE7A2A57D183F432 /* MetaMap-Global-ID-SDK */;
+			targetProxy = 8294669DF7C06939F973674ED1548F76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06696ECAE9FE81AF30963B6B1EBB7D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4931B684D1614FAD10CA666F1F2E3E80 /* MetaMap-Global-ID-SDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		228BF815E1F6F6034D75927BE1460A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED959D88F8006276F38859E5A51788B6 /* MetaMap-Global-ID-SDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFB52BF3629465360483D640584AD963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8731276EA9872459192E07691559E36 /* Pods-cordovaDemoApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cordovaDemoApp/Pods-cordovaDemoApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cordovaDemoApp/Pods-cordovaDemoApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3544CC1FBD28E744B979874DE9E0AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF176A510DD5C451C53E1BEE4B39A0C /* Pods-cordovaDemoApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cordovaDemoApp/Pods-cordovaDemoApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cordovaDemoApp/Pods-cordovaDemoApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48896C281E46ED8B6C2E5E8E2F407C29 /* Build configuration list for PBXNativeTarget "Pods-cordovaDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB52BF3629465360483D640584AD963 /* Debug */,
+				E3544CC1FBD28E744B979874DE9E0AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5B9E48C43AE7820F60E93CFB6EAFA7 /* Build configuration list for PBXAggregateTarget "MetaMap-Global-ID-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228BF815E1F6F6034D75927BE1460A8F /* Debug */,
+				06696ECAE9FE81AF30963B6B1EBB7D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MetaMap-Global-ID-SDK (3.9.4)
+
+DEPENDENCIES:
+  - MetaMap-Global-ID-SDK (= 3.9.4)
+
+SPEC REPOS:
+  trunk:
+    - MetaMap-Global-ID-SDK
+
+SPEC CHECKSUMS:
+  MetaMap-Global-ID-SDK: 2895eb0df3c53ee0bd4ddb989d8c3098e3bd5c64
+
+PODFILE CHECKSUM: 880052b9c3c4d7428d4fca5e4570ebfad8273fcf
+
+COCOAPODS: 1.11.3
